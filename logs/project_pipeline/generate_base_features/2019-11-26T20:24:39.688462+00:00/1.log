@@ -1,0 +1,28 @@
+[2019-11-26 21:24:58,949] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.generate_base_features 2019-11-26T20:24:39.688462+00:00 [queued]>
+[2019-11-26 21:24:58,974] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.generate_base_features 2019-11-26T20:24:39.688462+00:00 [queued]>
+[2019-11-26 21:24:58,974] {taskinstance.py:841} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 21:24:58,974] {taskinstance.py:842} INFO - Starting attempt 1 of 1
+[2019-11-26 21:24:58,974] {taskinstance.py:843} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 21:24:59,586] {taskinstance.py:862} INFO - Executing <Task(PythonOperator): generate_base_features> on 2019-11-26T20:24:39.688462+00:00
+[2019-11-26 21:24:59,587] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'project_pipeline', 'generate_base_features', '2019-11-26T20:24:39.688462+00:00', '--job_id', '19', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/project_pipeline.py', '--cfg_path', '/tmp/tmpz6mr9r6u']
+[2019-11-26 21:25:02,525] {base_task_runner.py:115} INFO - Job 19: Subtask generate_base_features [2019-11-26 21:25:02,524] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-11-26 21:25:02,529] {base_task_runner.py:115} INFO - Job 19: Subtask generate_base_features [2019-11-26 21:25:02,528] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:25:03,843] {logging_mixin.py:112} INFO - [2019-11-26 21:25:03,842] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.990339 s
+[2019-11-26 21:25:05,195] {base_task_runner.py:115} INFO - Job 19: Subtask generate_base_features [2019-11-26 21:25:05,194] {cli.py:545} INFO - Running <TaskInstance: project_pipeline.generate_base_features 2019-11-26T20:24:39.688462+00:00 [running]> on host exceptions
+[2019-11-26 21:25:05,208] {python_operator.py:105} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=project_pipeline
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-26T20:24:39.688462+00:00
+AIRFLOW_CTX_TASK_ID=generate_base_features
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-11-26T20:24:39.688462+00:00
+[2019-11-26 21:25:09,125] {logging_mixin.py:112} INFO - [2019-11-26 21:25:09,124] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.988993 s
+[2019-11-26 21:25:14,235] {logging_mixin.py:112} INFO - [2019-11-26 21:25:14,235] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.985782 s
+[2019-11-26 21:25:19,192] {python_operator.py:114} INFO - Done. Returned value was: <feature_engineering.Generate_base_features object at 0x7f25d72be5c0>
+[2019-11-26 21:25:19,647] {base_task_runner.py:115} INFO - Job 19: Subtask generate_base_features /home/exceptions/env/lib/python3.5/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/exceptions/airflow/airflow.cfg and /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg, and you should remove the other file
+[2019-11-26 21:25:19,648] {base_task_runner.py:115} INFO - Job 19: Subtask generate_base_features   category=DeprecationWarning,
+[2019-11-26 21:25:19,794] {logging_mixin.py:112} INFO - [2019-11-26 21:25:19,792] {local_task_job.py:167} WARNING - State of this instance has been externally set to success. Taking the poison pill.
+[2019-11-26 21:25:19,803] {helpers.py:308} INFO - Sending Signals.SIGTERM to GPID 9897
+[2019-11-26 21:25:19,818] {helpers.py:286} INFO - Process psutil.Process(pid=9897, status='terminated') (9897) terminated with exit code -15
+[2019-11-26 21:25:19,818] {logging_mixin.py:112} INFO - [2019-11-26 21:25:19,818] {local_task_job.py:124} WARNING - Time since last heartbeat(0.04 s) < heartrate(5.0 s), sleeping for 4.964351 s
+[2019-11-26 21:25:24,789] {logging_mixin.py:112} INFO - [2019-11-26 21:25:24,788] {local_task_job.py:103} INFO - Task exited with return code 0

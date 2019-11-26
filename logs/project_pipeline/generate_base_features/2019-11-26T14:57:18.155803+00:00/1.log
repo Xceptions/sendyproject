@@ -1,0 +1,27 @@
+[2019-11-26 15:58:00,438] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.generate_base_features 2019-11-26T14:57:18.155803+00:00 [queued]>
+[2019-11-26 15:58:00,453] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.generate_base_features 2019-11-26T14:57:18.155803+00:00 [queued]>
+[2019-11-26 15:58:00,454] {taskinstance.py:841} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 15:58:00,454] {taskinstance.py:842} INFO - Starting attempt 1 of 1
+[2019-11-26 15:58:00,454] {taskinstance.py:843} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 15:58:00,667] {taskinstance.py:862} INFO - Executing <Task(PythonOperator): generate_base_features> on 2019-11-26T14:57:18.155803+00:00
+[2019-11-26 15:58:00,668] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'project_pipeline', 'generate_base_features', '2019-11-26T14:57:18.155803+00:00', '--job_id', '15', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/project_pipeline.py', '--cfg_path', '/tmp/tmpgbrzdxu9']
+[2019-11-26 15:58:02,546] {base_task_runner.py:115} INFO - Job 15: Subtask generate_base_features [2019-11-26 15:58:02,545] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-11-26 15:58:02,549] {base_task_runner.py:115} INFO - Job 15: Subtask generate_base_features [2019-11-26 15:58:02,548] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:58:02,870] {base_task_runner.py:115} INFO - Job 15: Subtask generate_base_features [2019-11-26 15:58:02,869] {cli.py:545} INFO - Running <TaskInstance: project_pipeline.generate_base_features 2019-11-26T14:57:18.155803+00:00 [running]> on host exceptions
+[2019-11-26 15:58:02,880] {python_operator.py:105} INFO - Exporting the following env vars:
+AIRFLOW_CTX_TASK_ID=generate_base_features
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-26T14:57:18.155803+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-11-26T14:57:18.155803+00:00
+AIRFLOW_CTX_DAG_ID=project_pipeline
+[2019-11-26 15:58:05,229] {logging_mixin.py:112} INFO - [2019-11-26 15:58:05,228] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.988488 s
+[2019-11-26 15:58:10,328] {logging_mixin.py:112} INFO - [2019-11-26 15:58:10,328] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.993984 s
+[2019-11-26 15:58:15,106] {python_operator.py:114} INFO - Done. Returned value was: <feature_engineering.Generate_base_features object at 0x7efc8cc8a240>
+[2019-11-26 15:58:15,771] {base_task_runner.py:115} INFO - Job 15: Subtask generate_base_features /home/exceptions/env/lib/python3.5/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/exceptions/airflow/airflow.cfg and /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg, and you should remove the other file
+[2019-11-26 15:58:15,771] {base_task_runner.py:115} INFO - Job 15: Subtask generate_base_features   category=DeprecationWarning,
+[2019-11-26 15:58:15,793] {logging_mixin.py:112} INFO - [2019-11-26 15:58:15,792] {local_task_job.py:167} WARNING - State of this instance has been externally set to success. Taking the poison pill.
+[2019-11-26 15:58:15,817] {helpers.py:308} INFO - Sending Signals.SIGTERM to GPID 4341
+[2019-11-26 15:58:15,836] {helpers.py:286} INFO - Process psutil.Process(pid=4341, status='terminated') (4341) terminated with exit code -15
+[2019-11-26 15:58:15,838] {logging_mixin.py:112} INFO - [2019-11-26 15:58:15,837] {local_task_job.py:124} WARNING - Time since last heartbeat(0.16 s) < heartrate(5.0 s), sleeping for 4.835379 s
+[2019-11-26 15:58:20,680] {logging_mixin.py:112} INFO - [2019-11-26 15:58:20,678] {local_task_job.py:103} INFO - Task exited with return code 0

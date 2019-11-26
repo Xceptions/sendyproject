@@ -1,0 +1,151 @@
+[2019-11-26 21:29:13,259] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.train_lgb_model 2019-11-26T20:24:39.688462+00:00 [queued]>
+[2019-11-26 21:29:13,283] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.train_lgb_model 2019-11-26T20:24:39.688462+00:00 [queued]>
+[2019-11-26 21:29:13,284] {taskinstance.py:841} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 21:29:13,284] {taskinstance.py:842} INFO - Starting attempt 1 of 1
+[2019-11-26 21:29:13,284] {taskinstance.py:843} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 21:29:13,440] {taskinstance.py:862} INFO - Executing <Task(PythonOperator): train_lgb_model> on 2019-11-26T20:24:39.688462+00:00
+[2019-11-26 21:29:13,441] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'project_pipeline', 'train_lgb_model', '2019-11-26T20:24:39.688462+00:00', '--job_id', '23', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/project_pipeline.py', '--cfg_path', '/tmp/tmplcnikbzv']
+[2019-11-26 21:29:15,270] {base_task_runner.py:115} INFO - Job 23: Subtask train_lgb_model [2019-11-26 21:29:15,268] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-11-26 21:29:15,270] {base_task_runner.py:115} INFO - Job 23: Subtask train_lgb_model [2019-11-26 21:29:15,270] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:29:15,901] {base_task_runner.py:115} INFO - Job 23: Subtask train_lgb_model [2019-11-26 21:29:15,900] {cli.py:545} INFO - Running <TaskInstance: project_pipeline.train_lgb_model 2019-11-26T20:24:39.688462+00:00 [running]> on host exceptions
+[2019-11-26 21:29:15,912] {python_operator.py:105} INFO - Exporting the following env vars:
+AIRFLOW_CTX_TASK_ID=train_lgb_model
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-11-26T20:24:39.688462+00:00
+AIRFLOW_CTX_DAG_ID=project_pipeline
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-26T20:24:39.688462+00:00
+[2019-11-26 21:29:16,135] {logging_mixin.py:112} INFO - Training for platform 1
+[2019-11-26 21:29:16,301] {logging_mixin.py:112} INFO - Training:  1610  and validating:  537
+[2019-11-26 21:29:16,301] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:16,444] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:16,737] {logging_mixin.py:112} INFO - [100]	training's rmse: 413.191	valid_1's rmse: 677.538
+[2019-11-26 21:29:16,862] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[40]	training's rmse: 549.659	valid_1's rmse: 675.415
+[2019-11-26 21:29:16,868] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 675.4147565518416)]), 'training': OrderedDict([('rmse', 549.6586924452217)])})
+[2019-11-26 21:29:16,932] {logging_mixin.py:112} INFO - Training:  1610  and validating:  537
+[2019-11-26 21:29:16,932] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:16,974] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:17,236] {logging_mixin.py:112} INFO - [100]	training's rmse: 417.876	valid_1's rmse: 667.444
+[2019-11-26 21:29:17,345] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[44]	training's rmse: 543.947	valid_1's rmse: 660.738
+[2019-11-26 21:29:17,350] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 660.7381425911402)]), 'training': OrderedDict([('rmse', 543.9474668905091)])})
+[2019-11-26 21:29:17,412] {logging_mixin.py:112} INFO - Training:  1610  and validating:  537
+[2019-11-26 21:29:17,412] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:17,454] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:17,706] {logging_mixin.py:112} INFO - [100]	training's rmse: 419.598	valid_1's rmse: 648.884
+[2019-11-26 21:29:17,808] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[44]	training's rmse: 539.836	valid_1's rmse: 640.253
+[2019-11-26 21:29:17,814] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 640.2526385415567)]), 'training': OrderedDict([('rmse', 539.835911123924)])})
+[2019-11-26 21:29:17,876] {logging_mixin.py:112} INFO - Training:  1611  and validating:  536
+[2019-11-26 21:29:17,876] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:17,918] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:18,094] {logging_mixin.py:112} INFO - [2019-11-26 21:29:18,093] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.994721 s
+[2019-11-26 21:29:18,164] {logging_mixin.py:112} INFO - [100]	training's rmse: 399.558	valid_1's rmse: 748.185
+[2019-11-26 21:29:18,298] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[61]	training's rmse: 472.785	valid_1's rmse: 742.136
+[2019-11-26 21:29:18,305] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 742.1361820961964)]), 'training': OrderedDict([('rmse', 472.7854504068629)])})
+[2019-11-26 21:29:18,365] {logging_mixin.py:112} INFO - training platform 1 has ended
+[2019-11-26 21:29:18,365] {logging_mixin.py:112} INFO - Training for platform 2
+[2019-11-26 21:29:18,491] {logging_mixin.py:112} INFO - Training:  735  and validating:  245
+[2019-11-26 21:29:18,491] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:18,528] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:18,710] {logging_mixin.py:112} INFO - [100]	training's rmse: 357.095	valid_1's rmse: 712.999
+[2019-11-26 21:29:18,792] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[43]	training's rmse: 521.381	valid_1's rmse: 706.277
+[2019-11-26 21:29:18,798] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 706.2769826725461)]), 'training': OrderedDict([('rmse', 521.3808821676652)])})
+[2019-11-26 21:29:18,860] {logging_mixin.py:112} INFO - Training:  735  and validating:  245
+[2019-11-26 21:29:18,860] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:18,896] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:19,073] {logging_mixin.py:112} INFO - [100]	training's rmse: 364.266	valid_1's rmse: 667.073
+[2019-11-26 21:29:19,188] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[59]	training's rmse: 469.609	valid_1's rmse: 661.27
+[2019-11-26 21:29:19,196] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 661.2698307260349)]), 'training': OrderedDict([('rmse', 469.60935114878095)])})
+[2019-11-26 21:29:19,258] {logging_mixin.py:112} INFO - Training:  735  and validating:  245
+[2019-11-26 21:29:19,259] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:19,296] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:19,468] {logging_mixin.py:112} INFO - [100]	training's rmse: 337.753	valid_1's rmse: 725.547
+[2019-11-26 21:29:19,558] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[46]	training's rmse: 497.693	valid_1's rmse: 714.887
+[2019-11-26 21:29:19,565] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 714.8868678545468)]), 'training': OrderedDict([('rmse', 497.6933580807852)])})
+[2019-11-26 21:29:19,628] {logging_mixin.py:112} INFO - Training:  735  and validating:  245
+[2019-11-26 21:29:19,628] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:19,666] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:19,845] {logging_mixin.py:112} INFO - [100]	training's rmse: 355.191	valid_1's rmse: 753.777
+[2019-11-26 21:29:19,992] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[83]	training's rmse: 391.475	valid_1's rmse: 748.189
+[2019-11-26 21:29:20,002] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 748.188706853943)]), 'training': OrderedDict([('rmse', 391.47462242425905)])})
+[2019-11-26 21:29:20,063] {logging_mixin.py:112} INFO - training platform 2 has ended
+[2019-11-26 21:29:20,063] {logging_mixin.py:112} INFO - Training for platform 3
+[2019-11-26 21:29:20,198] {logging_mixin.py:112} INFO - Training:  13540  and validating:  4514
+[2019-11-26 21:29:20,198] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:20,309] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:20,840] {logging_mixin.py:112} INFO - [100]	training's rmse: 690.759	valid_1's rmse: 734.368
+[2019-11-26 21:29:21,270] {logging_mixin.py:112} INFO - [200]	training's rmse: 646.225	valid_1's rmse: 729.287
+[2019-11-26 21:29:21,676] {logging_mixin.py:112} INFO - [300]	training's rmse: 612.224	valid_1's rmse: 728.575
+[2019-11-26 21:29:22,064] {logging_mixin.py:112} INFO - [400]	training's rmse: 580.682	valid_1's rmse: 728.019
+[2019-11-26 21:29:22,555] {logging_mixin.py:112} INFO - [500]	training's rmse: 553.667	valid_1's rmse: 727.589
+[2019-11-26 21:29:23,227] {logging_mixin.py:112} INFO - [2019-11-26 21:29:23,227] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.989894 s
+[2019-11-26 21:29:23,408] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[494]	training's rmse: 555.629	valid_1's rmse: 727.387
+[2019-11-26 21:29:23,470] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 727.3874752875769)]), 'training': OrderedDict([('rmse', 555.6289475895882)])})
+[2019-11-26 21:29:23,564] {logging_mixin.py:112} INFO - Training:  13540  and validating:  4514
+[2019-11-26 21:29:23,564] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:23,775] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:24,974] {logging_mixin.py:112} INFO - [100]	training's rmse: 684.919	valid_1's rmse: 754.29
+[2019-11-26 21:29:25,493] {logging_mixin.py:112} INFO - [200]	training's rmse: 638.521	valid_1's rmse: 751.495
+[2019-11-26 21:29:25,751] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[154]	training's rmse: 657.062	valid_1's rmse: 750.889
+[2019-11-26 21:29:25,770] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 750.8891203957229)]), 'training': OrderedDict([('rmse', 657.0617285847677)])})
+[2019-11-26 21:29:25,841] {logging_mixin.py:112} INFO - Training:  13541  and validating:  4513
+[2019-11-26 21:29:25,841] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:25,950] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:26,525] {logging_mixin.py:112} INFO - [100]	training's rmse: 690.466	valid_1's rmse: 732.456
+[2019-11-26 21:29:27,004] {logging_mixin.py:112} INFO - [200]	training's rmse: 642.665	valid_1's rmse: 730.322
+[2019-11-26 21:29:27,392] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[185]	training's rmse: 648.593	valid_1's rmse: 730.082
+[2019-11-26 21:29:27,412] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 730.0824439000512)]), 'training': OrderedDict([('rmse', 648.5926046883459)])})
+[2019-11-26 21:29:27,476] {logging_mixin.py:112} INFO - Training:  13541  and validating:  4513
+[2019-11-26 21:29:27,476] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:27,581] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:28,157] {logging_mixin.py:112} INFO - [100]	training's rmse: 678.103	valid_1's rmse: 778.994
+[2019-11-26 21:29:28,348] {logging_mixin.py:112} INFO - [2019-11-26 21:29:28,348] {local_task_job.py:124} WARNING - Time since last heartbeat(0.00 s) < heartrate(5.0 s), sleeping for 4.995164 s
+[2019-11-26 21:29:28,722] {logging_mixin.py:112} INFO - [200]	training's rmse: 632.787	valid_1's rmse: 777.12
+[2019-11-26 21:29:29,043] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[168]	training's rmse: 645.233	valid_1's rmse: 775.925
+[2019-11-26 21:29:29,061] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 775.9245945790411)]), 'training': OrderedDict([('rmse', 645.2332776010161)])})
+[2019-11-26 21:29:29,121] {logging_mixin.py:112} INFO - training platform 3 has ended
+[2019-11-26 21:29:29,121] {logging_mixin.py:112} INFO - Training for platform 4
+[2019-11-26 21:29:29,244] {logging_mixin.py:112} INFO - Training:  15  and validating:  5
+[2019-11-26 21:29:29,244] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:29,275] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:29,285] {logging_mixin.py:112} INFO - [100]	training's rmse: 1938.37	valid_1's rmse: 2298.98
+[2019-11-26 21:29:29,285] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[1]	training's rmse: 1938.37	valid_1's rmse: 2298.98
+[2019-11-26 21:29:29,286] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 2298.982230852987)]), 'training': OrderedDict([('rmse', 1938.3745252143608)])})
+[2019-11-26 21:29:29,353] {logging_mixin.py:112} INFO - Training:  15  and validating:  5
+[2019-11-26 21:29:29,354] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:29,466] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:29,743] {logging_mixin.py:112} INFO - [100]	training's rmse: 2043.84	valid_1's rmse: 2365.46
+[2019-11-26 21:29:29,744] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[1]	training's rmse: 2043.84	valid_1's rmse: 2365.46
+[2019-11-26 21:29:29,745] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 2365.464334966816)]), 'training': OrderedDict([('rmse', 2043.8388227385576)])})
+[2019-11-26 21:29:29,810] {logging_mixin.py:112} INFO - Training:  15  and validating:  5
+[2019-11-26 21:29:29,810] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:29,883] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:30,154] {logging_mixin.py:112} INFO - [100]	training's rmse: 1988.65	valid_1's rmse: 2235.37
+[2019-11-26 21:29:30,155] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[1]	training's rmse: 1988.65	valid_1's rmse: 2235.37
+[2019-11-26 21:29:30,156] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 2235.370225364122)]), 'training': OrderedDict([('rmse', 1988.6458541764882)])})
+[2019-11-26 21:29:30,219] {logging_mixin.py:112} INFO - Training:  15  and validating:  5
+[2019-11-26 21:29:30,219] {logging_mixin.py:112} INFO - training LGB:
+[2019-11-26 21:29:30,252] {logging_mixin.py:112} INFO - Training until validation scores don't improve for 100 rounds
+[2019-11-26 21:29:30,262] {logging_mixin.py:112} INFO - [100]	training's rmse: 1646.2	valid_1's rmse: 582.792
+[2019-11-26 21:29:30,262] {logging_mixin.py:112} INFO - Early stopping, best iteration is:
+[1]	training's rmse: 1646.2	valid_1's rmse: 582.792
+[2019-11-26 21:29:30,263] {logging_mixin.py:112} INFO - best score defaultdict(<class 'collections.OrderedDict'>, {'valid_1': OrderedDict([('rmse', 582.792133707303)]), 'training': OrderedDict([('rmse', 1646.1971125394834)])})
+[2019-11-26 21:29:30,323] {logging_mixin.py:112} INFO - training platform 4 has ended
+[2019-11-26 21:29:30,428] {python_operator.py:114} INFO - Done. Returned value was: <train_model.Train_LGB_Model object at 0x7fa383952278>
+[2019-11-26 21:29:32,121] {base_task_runner.py:115} INFO - Job 23: Subtask train_lgb_model /home/exceptions/env/lib/python3.5/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/exceptions/airflow/airflow.cfg and /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg, and you should remove the other file
+[2019-11-26 21:29:32,121] {base_task_runner.py:115} INFO - Job 23: Subtask train_lgb_model   category=DeprecationWarning,
+[2019-11-26 21:29:33,351] {logging_mixin.py:112} INFO - [2019-11-26 21:29:33,349] {local_task_job.py:103} INFO - Task exited with return code 0

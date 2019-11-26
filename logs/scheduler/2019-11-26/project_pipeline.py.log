@@ -1,0 +1,1196 @@
+[2019-11-26 05:14:27,373] {scheduler_job.py:153} INFO - Started process (PID=5927) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:14:27,595] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:14:27,596] {logging_mixin.py:112} INFO - [2019-11-26 05:14:27,596] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:14:28,007] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:14:28,016] {logging_mixin.py:112} INFO - [2019-11-26 05:14:28,016] {dag.py:1369} INFO - Creating ORM DAG for project_pipeline
+[2019-11-26 05:14:28,124] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.750 seconds
+[2019-11-26 05:15:09,273] {scheduler_job.py:153} INFO - Started process (PID=5956) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:15:09,316] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:15:09,316] {logging_mixin.py:112} INFO - [2019-11-26 05:15:09,316] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:15:09,697] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:15:09,823] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:15:09,843] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:15:09,861] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:15:09,867] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 04:14:51.493312+00:00 [scheduled]> in ORM
+[2019-11-26 05:15:10,002] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.729 seconds
+[2019-11-26 05:16:03,512] {scheduler_job.py:153} INFO - Started process (PID=5995) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:16:03,550] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:16:03,551] {logging_mixin.py:112} INFO - [2019-11-26 05:16:03,550] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:16:03,916] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:16:04,037] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:16:04,062] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:16:04,083] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:16:04,088] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.576 seconds
+[2019-11-26 05:16:46,993] {scheduler_job.py:153} INFO - Started process (PID=6027) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:16:47,025] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:16:47,027] {logging_mixin.py:112} INFO - [2019-11-26 05:16:47,027] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:16:47,427] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:16:47,703] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:16:47,725] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:16:47,744] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:16:47,750] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.757 seconds
+[2019-11-26 05:17:27,611] {scheduler_job.py:153} INFO - Started process (PID=6060) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:17:27,651] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:17:27,652] {logging_mixin.py:112} INFO - [2019-11-26 05:17:27,652] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:17:28,015] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:17:28,152] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:17:28,172] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:17:28,189] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:17:28,193] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.582 seconds
+[2019-11-26 05:18:09,647] {scheduler_job.py:153} INFO - Started process (PID=6090) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:18:09,684] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:18:09,684] {logging_mixin.py:112} INFO - [2019-11-26 05:18:09,684] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:18:10,051] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:18:10,161] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:18:10,184] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:18:10,203] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:18:10,207] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.560 seconds
+[2019-11-26 05:18:51,690] {scheduler_job.py:153} INFO - Started process (PID=6113) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:18:51,727] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:18:51,730] {logging_mixin.py:112} INFO - [2019-11-26 05:18:51,729] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:18:52,096] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:18:52,232] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:18:52,255] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:18:52,273] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:18:52,277] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.587 seconds
+[2019-11-26 05:19:33,736] {scheduler_job.py:153} INFO - Started process (PID=6142) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:19:33,779] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:19:33,780] {logging_mixin.py:112} INFO - [2019-11-26 05:19:33,780] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:19:34,157] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:19:34,290] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:19:34,312] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:19:34,331] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:19:34,335] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.599 seconds
+[2019-11-26 05:20:15,783] {scheduler_job.py:153} INFO - Started process (PID=6172) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:20:15,819] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:20:15,820] {logging_mixin.py:112} INFO - [2019-11-26 05:20:15,820] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:20:16,190] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:20:16,310] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:20:16,328] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:20:16,344] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:20:16,348] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.565 seconds
+[2019-11-26 05:20:57,830] {scheduler_job.py:153} INFO - Started process (PID=6198) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:20:57,871] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:20:57,872] {logging_mixin.py:112} INFO - [2019-11-26 05:20:57,872] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:20:58,234] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:20:58,363] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:20:58,381] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:20:58,396] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:20:58,403] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 04:14:51.493312+00:00 [scheduled]> in ORM
+[2019-11-26 05:20:58,495] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.666 seconds
+[2019-11-26 05:21:52,037] {scheduler_job.py:153} INFO - Started process (PID=6237) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:21:52,075] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:21:52,076] {logging_mixin.py:112} INFO - [2019-11-26 05:21:52,076] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:21:52,425] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:21:52,533] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:21:52,555] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:21:52,570] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:21:52,573] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.536 seconds
+[2019-11-26 05:22:34,081] {scheduler_job.py:153} INFO - Started process (PID=6279) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:22:34,125] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:22:34,126] {logging_mixin.py:112} INFO - [2019-11-26 05:22:34,126] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:22:34,498] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:22:34,629] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:22:34,650] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:22:34,668] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:22:34,672] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.591 seconds
+[2019-11-26 05:23:16,126] {scheduler_job.py:153} INFO - Started process (PID=6306) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:23:16,160] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:23:16,161] {logging_mixin.py:112} INFO - [2019-11-26 05:23:16,160] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:23:16,524] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:23:16,632] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:23:16,651] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:23:16,667] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:23:16,670] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.544 seconds
+[2019-11-26 05:23:58,175] {scheduler_job.py:153} INFO - Started process (PID=6333) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:23:58,211] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:23:58,211] {logging_mixin.py:112} INFO - [2019-11-26 05:23:58,211] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:23:58,568] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:23:58,706] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:23:58,728] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:23:58,745] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:23:58,749] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.575 seconds
+[2019-11-26 05:24:40,218] {scheduler_job.py:153} INFO - Started process (PID=6358) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:24:40,260] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:24:40,261] {logging_mixin.py:112} INFO - [2019-11-26 05:24:40,261] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:24:40,621] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:24:40,760] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:24:40,776] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:24:40,791] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:24:40,794] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.576 seconds
+[2019-11-26 05:25:22,263] {scheduler_job.py:153} INFO - Started process (PID=6384) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:25:22,306] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:25:22,307] {logging_mixin.py:112} INFO - [2019-11-26 05:25:22,306] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:25:22,668] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:25:22,777] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:25:22,801] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:25:22,820] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:25:22,824] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.561 seconds
+[2019-11-26 05:26:04,309] {scheduler_job.py:153} INFO - Started process (PID=6411) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:26:04,347] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:26:04,348] {logging_mixin.py:112} INFO - [2019-11-26 05:26:04,348] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:26:04,705] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:26:04,829] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:26:04,851] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:26:04,870] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:26:04,874] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.564 seconds
+[2019-11-26 05:26:46,355] {scheduler_job.py:153} INFO - Started process (PID=6435) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:26:46,404] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:26:46,406] {logging_mixin.py:112} INFO - [2019-11-26 05:26:46,405] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:26:46,768] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:26:47,055] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:26:47,079] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:26:47,099] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:26:47,105] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 04:14:51.493312+00:00 [scheduled]> in ORM
+[2019-11-26 05:26:47,301] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.946 seconds
+[2019-11-26 05:27:40,453] {scheduler_job.py:153} INFO - Started process (PID=6476) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:27:40,492] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:27:40,493] {logging_mixin.py:112} INFO - [2019-11-26 05:27:40,493] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:27:40,846] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:27:41,318] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:27:41,340] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True>
+[2019-11-26 05:27:41,356] {logging_mixin.py:112} INFO - [2019-11-26 05:27:41,356] {dagrun.py:308} INFO - Marking run <DagRun project_pipeline @ 2019-11-26 04:14:51.493312+00:00: manual__2019-11-26T04:14:51.493312+00:00, externally triggered: True> failed
+[2019-11-26 05:27:41,462] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:27:41,467] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.014 seconds
+[2019-11-26 05:28:22,497] {scheduler_job.py:153} INFO - Started process (PID=6504) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:28:22,541] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:28:22,542] {logging_mixin.py:112} INFO - [2019-11-26 05:28:22,541] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:28:22,911] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:28:23,023] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:28:23,044] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:28:23,047] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.550 seconds
+[2019-11-26 05:29:04,542] {scheduler_job.py:153} INFO - Started process (PID=6530) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:29:04,577] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:29:04,578] {logging_mixin.py:112} INFO - [2019-11-26 05:29:04,577] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:29:04,929] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:29:05,031] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:29:05,059] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:29:05,063] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.521 seconds
+[2019-11-26 05:29:46,588] {scheduler_job.py:153} INFO - Started process (PID=6556) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:29:46,625] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:29:46,626] {logging_mixin.py:112} INFO - [2019-11-26 05:29:46,625] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:29:46,987] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:29:47,069] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:29:47,086] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:29:47,089] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.502 seconds
+[2019-11-26 05:30:28,633] {scheduler_job.py:153} INFO - Started process (PID=6582) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:30:28,673] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:30:28,675] {logging_mixin.py:112} INFO - [2019-11-26 05:30:28,675] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:30:29,045] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:30:29,173] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:30:29,197] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:30:29,201] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.568 seconds
+[2019-11-26 05:31:10,681] {scheduler_job.py:153} INFO - Started process (PID=6610) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:31:10,715] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:31:10,716] {logging_mixin.py:112} INFO - [2019-11-26 05:31:10,715] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:31:11,075] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:31:11,179] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:31:11,202] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:31:11,207] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.525 seconds
+[2019-11-26 05:31:52,726] {scheduler_job.py:153} INFO - Started process (PID=6635) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:31:52,765] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:31:52,766] {logging_mixin.py:112} INFO - [2019-11-26 05:31:52,765] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:31:53,125] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:31:53,409] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:31:53,431] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:31:53,436] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.710 seconds
+[2019-11-26 05:32:34,773] {scheduler_job.py:153} INFO - Started process (PID=6665) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:32:34,808] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:32:34,809] {logging_mixin.py:112} INFO - [2019-11-26 05:32:34,809] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:32:35,170] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:32:35,312] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:32:35,335] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:32:35,339] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.566 seconds
+[2019-11-26 05:33:16,820] {scheduler_job.py:153} INFO - Started process (PID=6692) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:33:16,866] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:33:16,867] {logging_mixin.py:112} INFO - [2019-11-26 05:33:16,866] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:33:17,239] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:33:17,316] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:33:17,335] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:33:17,338] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.518 seconds
+[2019-11-26 05:33:58,863] {scheduler_job.py:153} INFO - Started process (PID=6722) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:33:58,900] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:33:58,902] {logging_mixin.py:112} INFO - [2019-11-26 05:33:58,901] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:33:59,280] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:33:59,384] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:33:59,411] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:33:59,415] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.552 seconds
+[2019-11-26 05:34:40,911] {scheduler_job.py:153} INFO - Started process (PID=6752) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:34:40,949] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:34:40,949] {logging_mixin.py:112} INFO - [2019-11-26 05:34:40,949] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:34:41,313] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:34:41,407] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:34:41,424] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:34:41,427] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.517 seconds
+[2019-11-26 05:35:22,949] {scheduler_job.py:153} INFO - Started process (PID=6790) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:35:22,990] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:35:22,991] {logging_mixin.py:112} INFO - [2019-11-26 05:35:22,991] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:35:23,366] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:35:23,508] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:35:23,531] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:35:23,535] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.586 seconds
+[2019-11-26 05:36:04,986] {scheduler_job.py:153} INFO - Started process (PID=6822) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:36:05,030] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:36:05,032] {logging_mixin.py:112} INFO - [2019-11-26 05:36:05,032] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:36:05,466] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:36:05,591] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:36:05,615] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:36:05,620] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.634 seconds
+[2019-11-26 05:36:37,420] {scheduler_job.py:153} INFO - Started process (PID=6849) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:36:37,452] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:36:37,454] {logging_mixin.py:112} INFO - [2019-11-26 05:36:37,454] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:36:37,868] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:36:38,037] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:36:38,059] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:36:38,063] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.643 seconds
+[2019-11-26 05:37:19,427] {scheduler_job.py:153} INFO - Started process (PID=6877) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:37:19,471] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:37:19,471] {logging_mixin.py:112} INFO - [2019-11-26 05:37:19,471] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:37:19,843] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:37:19,925] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:37:19,943] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:37:19,946] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.520 seconds
+[2019-11-26 05:38:01,652] {scheduler_job.py:153} INFO - Started process (PID=6906) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:38:01,862] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:38:01,863] {logging_mixin.py:112} INFO - [2019-11-26 05:38:01,862] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:38:02,256] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:38:02,372] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:38:02,389] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:38:02,394] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.742 seconds
+[2019-11-26 05:38:43,512] {scheduler_job.py:153} INFO - Started process (PID=6933) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:38:43,551] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:38:43,552] {logging_mixin.py:112} INFO - [2019-11-26 05:38:43,552] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:38:43,931] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:38:44,022] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:38:44,047] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:38:44,051] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.540 seconds
+[2019-11-26 05:39:33,515] {scheduler_job.py:153} INFO - Started process (PID=6991) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:39:33,553] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:39:33,553] {logging_mixin.py:112} INFO - [2019-11-26 05:39:33,553] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:39:33,929] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:39:34,052] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:39:34,068] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:39:34,072] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.556 seconds
+[2019-11-26 05:40:15,530] {scheduler_job.py:153} INFO - Started process (PID=7018) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:40:15,579] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:40:15,580] {logging_mixin.py:112} INFO - [2019-11-26 05:40:15,579] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:40:15,942] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:40:16,034] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:40:16,058] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:40:16,077] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:40:16,084] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 04:39:47.694300+00:00 [scheduled]> in ORM
+[2019-11-26 05:40:16,184] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.655 seconds
+[2019-11-26 05:41:09,870] {scheduler_job.py:153} INFO - Started process (PID=7059) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:41:09,909] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:41:09,910] {logging_mixin.py:112} INFO - [2019-11-26 05:41:09,910] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:41:10,263] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:41:10,358] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:41:10,375] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:41:10,390] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:41:10,393] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.523 seconds
+[2019-11-26 05:41:51,925] {scheduler_job.py:153} INFO - Started process (PID=7083) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:41:51,964] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:41:51,965] {logging_mixin.py:112} INFO - [2019-11-26 05:41:51,965] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:41:52,325] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:41:52,418] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:41:52,437] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:41:52,453] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:41:52,457] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.532 seconds
+[2019-11-26 05:42:33,960] {scheduler_job.py:153} INFO - Started process (PID=7110) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:42:34,006] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:42:34,007] {logging_mixin.py:112} INFO - [2019-11-26 05:42:34,007] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:42:34,377] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:42:34,477] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:42:34,501] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:42:34,520] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:42:34,526] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.566 seconds
+[2019-11-26 05:43:16,006] {scheduler_job.py:153} INFO - Started process (PID=7140) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:43:16,044] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:43:16,045] {logging_mixin.py:112} INFO - [2019-11-26 05:43:16,044] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:43:16,411] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:43:16,523] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:43:16,546] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:43:16,565] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:43:16,569] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.564 seconds
+[2019-11-26 05:43:58,053] {scheduler_job.py:153} INFO - Started process (PID=7165) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:43:58,100] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:43:58,101] {logging_mixin.py:112} INFO - [2019-11-26 05:43:58,101] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:43:58,471] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:43:58,577] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:43:58,602] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:43:58,622] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:43:58,626] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.574 seconds
+[2019-11-26 05:44:40,100] {scheduler_job.py:153} INFO - Started process (PID=7192) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:44:40,151] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:44:40,152] {logging_mixin.py:112} INFO - [2019-11-26 05:44:40,151] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:44:40,527] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:44:40,638] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:44:40,655] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:44:40,670] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:44:40,673] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.574 seconds
+[2019-11-26 05:45:22,147] {scheduler_job.py:153} INFO - Started process (PID=7221) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:45:22,189] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:45:22,190] {logging_mixin.py:112} INFO - [2019-11-26 05:45:22,189] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:45:22,559] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:45:22,664] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:45:22,682] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:45:22,697] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:45:22,703] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 04:39:47.694300+00:00 [scheduled]> in ORM
+[2019-11-26 05:45:22,807] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.661 seconds
+[2019-11-26 05:46:16,035] {scheduler_job.py:153} INFO - Started process (PID=7269) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:46:16,077] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:46:16,078] {logging_mixin.py:112} INFO - [2019-11-26 05:46:16,078] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:46:16,446] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:46:16,572] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:46:16,594] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:46:16,612] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:46:16,616] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.581 seconds
+[2019-11-26 05:46:58,080] {scheduler_job.py:153} INFO - Started process (PID=7298) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:46:58,123] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:46:58,124] {logging_mixin.py:112} INFO - [2019-11-26 05:46:58,124] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:46:58,491] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:46:58,596] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:46:58,613] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:46:58,628] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:46:58,631] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.551 seconds
+[2019-11-26 05:47:40,126] {scheduler_job.py:153} INFO - Started process (PID=7325) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:47:40,165] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:47:40,165] {logging_mixin.py:112} INFO - [2019-11-26 05:47:40,165] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:47:40,524] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:47:40,638] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:47:40,661] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:47:40,680] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:47:40,684] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.557 seconds
+[2019-11-26 05:48:22,173] {scheduler_job.py:153} INFO - Started process (PID=7354) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:48:22,211] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:48:22,212] {logging_mixin.py:112} INFO - [2019-11-26 05:48:22,211] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:48:22,573] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:48:22,677] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:48:22,701] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:48:22,720] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:48:22,724] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.551 seconds
+[2019-11-26 05:49:04,220] {scheduler_job.py:153} INFO - Started process (PID=7382) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:49:04,257] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:49:04,258] {logging_mixin.py:112} INFO - [2019-11-26 05:49:04,258] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:49:04,627] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:49:04,740] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:49:04,761] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:49:04,778] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:49:04,782] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.562 seconds
+[2019-11-26 05:49:46,266] {scheduler_job.py:153} INFO - Started process (PID=7405) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:49:46,310] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:49:46,311] {logging_mixin.py:112} INFO - [2019-11-26 05:49:46,310] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:49:46,669] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:49:46,763] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:49:46,787] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:49:46,806] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:49:46,811] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.544 seconds
+[2019-11-26 05:50:28,313] {scheduler_job.py:153} INFO - Started process (PID=7431) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:50:28,371] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:50:28,372] {logging_mixin.py:112} INFO - [2019-11-26 05:50:28,372] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:50:28,739] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:50:28,838] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:50:28,861] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:50:28,880] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:50:28,887] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 04:39:47.694300+00:00 [scheduled]> in ORM
+[2019-11-26 05:50:28,975] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.663 seconds
+[2019-11-26 05:51:22,587] {scheduler_job.py:153} INFO - Started process (PID=7472) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:51:22,637] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:51:22,638] {logging_mixin.py:112} INFO - [2019-11-26 05:51:22,637] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:51:23,005] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:51:23,126] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:51:23,150] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True>
+[2019-11-26 05:51:23,163] {logging_mixin.py:112} INFO - [2019-11-26 05:51:23,163] {dagrun.py:308} INFO - Marking run <DagRun project_pipeline @ 2019-11-26 04:39:47.694300+00:00: manual__2019-11-26T04:39:47.694300+00:00, externally triggered: True> failed
+[2019-11-26 05:51:23,233] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:51:23,237] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.650 seconds
+[2019-11-26 05:52:04,635] {scheduler_job.py:153} INFO - Started process (PID=7498) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:52:04,679] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:52:04,680] {logging_mixin.py:112} INFO - [2019-11-26 05:52:04,680] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:52:05,048] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:52:05,126] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:52:05,144] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:52:05,147] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.513 seconds
+[2019-11-26 05:52:46,682] {scheduler_job.py:153} INFO - Started process (PID=7525) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:52:46,731] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:52:46,732] {logging_mixin.py:112} INFO - [2019-11-26 05:52:46,732] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:52:47,097] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:52:47,191] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:52:47,210] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:52:47,214] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.532 seconds
+[2019-11-26 05:53:28,730] {scheduler_job.py:153} INFO - Started process (PID=7553) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:53:28,774] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:53:28,775] {logging_mixin.py:112} INFO - [2019-11-26 05:53:28,774] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:53:29,132] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:53:29,240] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:53:29,264] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:53:29,269] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.539 seconds
+[2019-11-26 05:54:10,777] {scheduler_job.py:153} INFO - Started process (PID=7578) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:54:10,824] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:54:10,825] {logging_mixin.py:112} INFO - [2019-11-26 05:54:10,825] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:54:11,190] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:54:11,323] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:54:11,347] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:54:11,351] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.574 seconds
+[2019-11-26 05:54:52,823] {scheduler_job.py:153} INFO - Started process (PID=7609) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:54:52,859] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:54:52,860] {logging_mixin.py:112} INFO - [2019-11-26 05:54:52,860] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:54:53,213] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:54:53,331] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:54:53,356] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:54:53,360] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.538 seconds
+[2019-11-26 05:55:34,868] {scheduler_job.py:153} INFO - Started process (PID=7635) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:55:34,915] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:55:34,916] {logging_mixin.py:112} INFO - [2019-11-26 05:55:34,916] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:55:35,281] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:55:35,394] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:55:35,417] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:55:35,422] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.554 seconds
+[2019-11-26 05:56:16,915] {scheduler_job.py:153} INFO - Started process (PID=7661) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:56:16,960] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:56:16,961] {logging_mixin.py:112} INFO - [2019-11-26 05:56:16,961] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:56:17,316] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:56:17,434] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:56:17,459] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:56:17,463] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.548 seconds
+[2019-11-26 05:57:00,418] {scheduler_job.py:153} INFO - Started process (PID=7689) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:57:00,465] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:57:00,465] {logging_mixin.py:112} INFO - [2019-11-26 05:57:00,465] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:57:00,837] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:57:01,062] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:57:01,080] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:57:01,084] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.666 seconds
+[2019-11-26 05:57:41,005] {scheduler_job.py:153} INFO - Started process (PID=7716) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:57:41,048] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:57:41,049] {logging_mixin.py:112} INFO - [2019-11-26 05:57:41,049] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:57:41,407] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:57:41,508] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:57:41,526] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:57:41,530] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.525 seconds
+[2019-11-26 05:58:23,049] {scheduler_job.py:153} INFO - Started process (PID=7745) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:58:23,095] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:58:23,096] {logging_mixin.py:112} INFO - [2019-11-26 05:58:23,096] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:58:23,464] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:58:23,564] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:58:23,587] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:58:23,591] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.542 seconds
+[2019-11-26 05:59:05,095] {scheduler_job.py:153} INFO - Started process (PID=7775) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:59:05,147] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:59:05,148] {logging_mixin.py:112} INFO - [2019-11-26 05:59:05,147] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:59:05,512] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:59:05,596] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:59:05,617] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:59:05,621] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.526 seconds
+[2019-11-26 05:59:47,142] {scheduler_job.py:153} INFO - Started process (PID=7798) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:59:47,177] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 05:59:47,178] {logging_mixin.py:112} INFO - [2019-11-26 05:59:47,177] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:59:47,533] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 05:59:47,659] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 05:59:47,684] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 05:59:47,690] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.548 seconds
+[2019-11-26 06:00:29,188] {scheduler_job.py:153} INFO - Started process (PID=7824) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:00:29,230] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:00:29,231] {logging_mixin.py:112} INFO - [2019-11-26 06:00:29,231] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:00:29,599] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:00:29,709] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:00:29,728] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:00:29,731] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.543 seconds
+[2019-11-26 06:01:11,244] {scheduler_job.py:153} INFO - Started process (PID=7852) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:01:11,285] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:01:11,286] {logging_mixin.py:112} INFO - [2019-11-26 06:01:11,286] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:01:11,640] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:01:11,744] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:01:11,760] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:01:11,764] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.520 seconds
+[2019-11-26 06:01:53,281] {scheduler_job.py:153} INFO - Started process (PID=7875) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:01:53,324] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:01:53,325] {logging_mixin.py:112} INFO - [2019-11-26 06:01:53,324] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:01:53,684] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:01:53,806] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:01:53,831] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:01:53,835] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.554 seconds
+[2019-11-26 06:02:35,327] {scheduler_job.py:153} INFO - Started process (PID=7904) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:02:35,364] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:02:35,366] {logging_mixin.py:112} INFO - [2019-11-26 06:02:35,365] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:02:35,731] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:02:35,918] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:02:35,942] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:02:35,947] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.619 seconds
+[2019-11-26 06:03:17,374] {scheduler_job.py:153} INFO - Started process (PID=7934) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:03:17,413] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:03:17,414] {logging_mixin.py:112} INFO - [2019-11-26 06:03:17,414] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:03:17,769] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:03:17,885] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:03:17,905] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:03:17,909] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.535 seconds
+[2019-11-26 06:03:59,419] {scheduler_job.py:153} INFO - Started process (PID=7960) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:03:59,459] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:03:59,460] {logging_mixin.py:112} INFO - [2019-11-26 06:03:59,460] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:03:59,828] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:03:59,930] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:03:59,947] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:03:59,950] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.531 seconds
+[2019-11-26 06:04:41,465] {scheduler_job.py:153} INFO - Started process (PID=7989) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:04:41,509] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:04:41,510] {logging_mixin.py:112} INFO - [2019-11-26 06:04:41,510] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:04:41,877] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:04:41,975] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:04:42,002] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:04:42,006] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.542 seconds
+[2019-11-26 06:05:23,511] {scheduler_job.py:153} INFO - Started process (PID=8019) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:05:23,562] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:05:23,563] {logging_mixin.py:112} INFO - [2019-11-26 06:05:23,562] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:05:23,930] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:05:24,066] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:05:24,091] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:05:24,095] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.585 seconds
+[2019-11-26 06:06:05,558] {scheduler_job.py:153} INFO - Started process (PID=8044) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:06:05,602] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:06:05,603] {logging_mixin.py:112} INFO - [2019-11-26 06:06:05,603] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:06:05,960] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:06:06,225] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:06:06,248] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:06:06,253] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.695 seconds
+[2019-11-26 06:06:47,605] {scheduler_job.py:153} INFO - Started process (PID=8068) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:06:47,653] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:06:47,654] {logging_mixin.py:112} INFO - [2019-11-26 06:06:47,653] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:06:48,018] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:06:48,120] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:06:48,140] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:06:48,144] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.539 seconds
+[2019-11-26 06:07:29,651] {scheduler_job.py:153} INFO - Started process (PID=8102) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:07:29,686] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:07:29,687] {logging_mixin.py:112} INFO - [2019-11-26 06:07:29,687] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:07:30,039] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:07:30,148] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:07:30,167] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:07:30,171] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.521 seconds
+[2019-11-26 06:08:11,697] {scheduler_job.py:153} INFO - Started process (PID=8131) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:08:11,744] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:08:11,745] {logging_mixin.py:112} INFO - [2019-11-26 06:08:11,745] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:08:12,109] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:08:12,229] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:08:12,248] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:08:12,251] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.554 seconds
+[2019-11-26 06:08:53,744] {scheduler_job.py:153} INFO - Started process (PID=8156) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:08:53,785] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:08:53,786] {logging_mixin.py:112} INFO - [2019-11-26 06:08:53,785] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:08:54,147] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:08:54,257] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:08:54,276] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:08:54,280] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.536 seconds
+[2019-11-26 06:09:35,795] {scheduler_job.py:153} INFO - Started process (PID=8694) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:09:35,835] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:09:35,837] {logging_mixin.py:112} INFO - [2019-11-26 06:09:35,837] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:09:36,195] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:09:37,087] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:09:37,115] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:09:37,119] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.324 seconds
+[2019-11-26 06:10:17,829] {scheduler_job.py:153} INFO - Started process (PID=8803) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:10:17,879] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:10:17,880] {logging_mixin.py:112} INFO - [2019-11-26 06:10:17,880] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:10:18,222] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:10:18,406] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:10:18,426] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:10:18,430] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.601 seconds
+[2019-11-26 06:11:01,414] {scheduler_job.py:153} INFO - Started process (PID=8830) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:11:01,464] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:11:01,465] {logging_mixin.py:112} INFO - [2019-11-26 06:11:01,464] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:11:01,827] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:11:02,019] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:11:02,039] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:11:02,043] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.630 seconds
+[2019-11-26 06:11:41,922] {scheduler_job.py:153} INFO - Started process (PID=8858) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:11:41,961] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:11:41,962] {logging_mixin.py:112} INFO - [2019-11-26 06:11:41,962] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:11:42,329] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:11:42,593] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:11:42,610] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:11:42,614] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.692 seconds
+[2019-11-26 06:12:23,963] {scheduler_job.py:153} INFO - Started process (PID=8897) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:12:24,005] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:12:24,006] {logging_mixin.py:112} INFO - [2019-11-26 06:12:24,006] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:12:24,356] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:12:24,473] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:12:24,494] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:12:24,498] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.535 seconds
+[2019-11-26 06:13:06,011] {scheduler_job.py:153} INFO - Started process (PID=8927) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:13:06,051] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:13:06,052] {logging_mixin.py:112} INFO - [2019-11-26 06:13:06,052] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:13:06,411] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:13:06,519] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:13:06,538] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:13:06,542] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.530 seconds
+[2019-11-26 06:13:48,058] {scheduler_job.py:153} INFO - Started process (PID=8960) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:13:48,106] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:13:48,107] {logging_mixin.py:112} INFO - [2019-11-26 06:13:48,106] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:13:48,466] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:13:48,589] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:13:48,611] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:13:48,615] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.558 seconds
+[2019-11-26 06:14:30,105] {scheduler_job.py:153} INFO - Started process (PID=8997) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:14:30,148] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:14:30,149] {logging_mixin.py:112} INFO - [2019-11-26 06:14:30,148] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:14:30,506] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:14:30,628] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:14:30,645] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:14:30,649] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.544 seconds
+[2019-11-26 06:15:12,144] {scheduler_job.py:153} INFO - Started process (PID=9029) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:15:12,186] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:15:12,187] {logging_mixin.py:112} INFO - [2019-11-26 06:15:12,187] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:15:12,529] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:15:12,637] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:15:12,661] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:15:12,665] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.521 seconds
+[2019-11-26 06:15:54,193] {scheduler_job.py:153} INFO - Started process (PID=9054) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:15:54,243] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:15:54,244] {logging_mixin.py:112} INFO - [2019-11-26 06:15:54,244] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:15:54,667] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:15:54,898] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:15:54,920] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:15:54,925] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.732 seconds
+[2019-11-26 06:16:36,234] {scheduler_job.py:153} INFO - Started process (PID=9082) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:16:36,268] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:16:36,269] {logging_mixin.py:112} INFO - [2019-11-26 06:16:36,269] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:16:36,712] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:16:36,878] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:16:36,903] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:16:36,908] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.673 seconds
+[2019-11-26 06:17:18,277] {scheduler_job.py:153} INFO - Started process (PID=9115) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:17:18,325] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:17:18,326] {logging_mixin.py:112} INFO - [2019-11-26 06:17:18,326] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:17:18,698] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:17:18,815] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:17:18,837] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:17:18,841] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.564 seconds
+[2019-11-26 06:18:00,314] {scheduler_job.py:153} INFO - Started process (PID=9147) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:18:00,354] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:18:00,355] {logging_mixin.py:112} INFO - [2019-11-26 06:18:00,355] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:18:00,766] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:18:01,025] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:18:01,044] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:18:01,047] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.733 seconds
+[2019-11-26 06:18:42,363] {scheduler_job.py:153} INFO - Started process (PID=9174) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:18:42,397] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:18:42,398] {logging_mixin.py:112} INFO - [2019-11-26 06:18:42,398] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:18:42,755] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:18:42,846] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:18:42,863] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:18:42,866] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.504 seconds
+[2019-11-26 06:19:24,403] {scheduler_job.py:153} INFO - Started process (PID=9202) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:19:24,447] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:19:24,448] {logging_mixin.py:112} INFO - [2019-11-26 06:19:24,448] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:19:24,803] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:19:24,908] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:19:24,926] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:19:24,929] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.526 seconds
+[2019-11-26 06:20:06,454] {scheduler_job.py:153} INFO - Started process (PID=9231) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:20:06,504] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:20:06,504] {logging_mixin.py:112} INFO - [2019-11-26 06:20:06,504] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:20:07,310] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:20:08,026] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:20:08,106] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:20:08,111] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.657 seconds
+[2019-11-26 06:21:00,405] {scheduler_job.py:153} INFO - Started process (PID=9272) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:21:00,450] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:21:00,452] {logging_mixin.py:112} INFO - [2019-11-26 06:21:00,451] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:21:00,863] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:21:01,066] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:21:01,097] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:21:01,103] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.699 seconds
+[2019-11-26 06:21:42,462] {scheduler_job.py:153} INFO - Started process (PID=9297) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:21:42,507] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:21:42,508] {logging_mixin.py:112} INFO - [2019-11-26 06:21:42,508] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:21:42,880] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:21:43,028] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:21:43,052] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 05:21:20.969297+00:00: manual__2019-11-26T05:21:20.969297+00:00, externally triggered: True>
+[2019-11-26 06:21:43,072] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:21:43,078] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 05:21:20.969297+00:00 [scheduled]> in ORM
+[2019-11-26 06:21:43,154] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.691 seconds
+[2019-11-26 06:22:41,576] {scheduler_job.py:153} INFO - Started process (PID=9339) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:22:41,618] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:22:41,619] {logging_mixin.py:112} INFO - [2019-11-26 06:22:41,618] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:22:41,989] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:22:42,119] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:22:42,140] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 05:21:20.969297+00:00: manual__2019-11-26T05:21:20.969297+00:00, externally triggered: True>
+[2019-11-26 06:22:42,152] {logging_mixin.py:112} INFO - [2019-11-26 06:22:42,152] {dagrun.py:308} INFO - Marking run <DagRun project_pipeline @ 2019-11-26 05:21:20.969297+00:00: manual__2019-11-26T05:21:20.969297+00:00, externally triggered: True> failed
+[2019-11-26 06:22:42,245] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:22:42,250] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.674 seconds
+[2019-11-26 06:23:23,619] {scheduler_job.py:153} INFO - Started process (PID=9370) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:23:23,658] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:23:23,659] {logging_mixin.py:112} INFO - [2019-11-26 06:23:23,658] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:23:24,026] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:23:24,138] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:23:24,159] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:23:24,163] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.544 seconds
+[2019-11-26 06:24:05,663] {scheduler_job.py:153} INFO - Started process (PID=9397) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:24:05,697] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:24:05,697] {logging_mixin.py:112} INFO - [2019-11-26 06:24:05,697] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:24:06,060] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:24:06,167] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:24:06,184] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:24:06,188] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.525 seconds
+[2019-11-26 06:24:47,709] {scheduler_job.py:153} INFO - Started process (PID=9425) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:24:47,746] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:24:47,747] {logging_mixin.py:112} INFO - [2019-11-26 06:24:47,747] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:24:48,116] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:24:48,216] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:24:48,239] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:24:48,244] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.535 seconds
+[2019-11-26 06:25:29,764] {scheduler_job.py:153} INFO - Started process (PID=9456) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:25:29,812] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:25:29,812] {logging_mixin.py:112} INFO - [2019-11-26 06:25:29,812] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:25:30,165] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:25:30,287] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:25:30,306] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:25:30,310] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.546 seconds
+[2019-11-26 06:26:11,796] {scheduler_job.py:153} INFO - Started process (PID=9484) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:26:11,833] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:26:11,834] {logging_mixin.py:112} INFO - [2019-11-26 06:26:11,834] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:26:12,174] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:26:12,286] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:26:12,310] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:26:12,315] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.519 seconds
+[2019-11-26 06:26:53,845] {scheduler_job.py:153} INFO - Started process (PID=9514) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:26:53,886] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:26:53,887] {logging_mixin.py:112} INFO - [2019-11-26 06:26:53,886] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:26:54,246] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:26:54,407] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:26:54,431] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:26:54,435] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.591 seconds
+[2019-11-26 06:27:35,885] {scheduler_job.py:153} INFO - Started process (PID=9549) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:27:35,923] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:27:35,924] {logging_mixin.py:112} INFO - [2019-11-26 06:27:35,924] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:27:36,282] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:27:36,415] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:27:36,432] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:27:36,436] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.550 seconds
+[2019-11-26 06:28:17,937] {scheduler_job.py:153} INFO - Started process (PID=9586) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:28:17,972] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:28:17,974] {logging_mixin.py:112} INFO - [2019-11-26 06:28:17,974] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:28:18,415] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:28:18,513] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:28:18,531] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:28:18,535] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.597 seconds
+[2019-11-26 06:28:59,975] {scheduler_job.py:153} INFO - Started process (PID=9637) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:29:00,012] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:29:00,013] {logging_mixin.py:112} INFO - [2019-11-26 06:29:00,012] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:29:00,379] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:29:00,477] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:29:00,500] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:29:00,504] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.529 seconds
+[2019-11-26 06:29:42,019] {scheduler_job.py:153} INFO - Started process (PID=9664) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:29:42,062] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:29:42,063] {logging_mixin.py:112} INFO - [2019-11-26 06:29:42,063] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:29:42,437] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:29:42,546] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:29:42,566] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:29:42,570] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.551 seconds
+[2019-11-26 06:30:24,064] {scheduler_job.py:153} INFO - Started process (PID=9691) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:30:24,101] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:30:24,103] {logging_mixin.py:112} INFO - [2019-11-26 06:30:24,102] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:30:24,491] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:30:24,659] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:30:24,677] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:30:24,681] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.618 seconds
+[2019-11-26 06:31:06,120] {scheduler_job.py:153} INFO - Started process (PID=9727) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:31:06,167] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:31:06,170] {logging_mixin.py:112} INFO - [2019-11-26 06:31:06,169] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:31:06,527] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:31:06,624] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:31:06,648] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:31:06,653] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.533 seconds
+[2019-11-26 06:31:48,151] {scheduler_job.py:153} INFO - Started process (PID=9754) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:31:48,190] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:31:48,191] {logging_mixin.py:112} INFO - [2019-11-26 06:31:48,190] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:31:48,547] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:31:48,801] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:31:48,824] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:31:48,829] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.678 seconds
+[2019-11-26 06:32:30,198] {scheduler_job.py:153} INFO - Started process (PID=9788) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:32:30,244] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 06:32:30,245] {logging_mixin.py:112} INFO - [2019-11-26 06:32:30,245] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:32:30,628] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:32:30,749] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 06:32:30,769] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 06:32:30,774] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.576 seconds
+[2019-11-26 07:11:46,285] {scheduler_job.py:153} INFO - Started process (PID=10709) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:11:46,290] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:11:46,291] {logging_mixin.py:112} INFO - [2019-11-26 07:11:46,291] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:11:46,652] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:11:46,759] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:11:46,783] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 06:11:25.402745+00:00: manual__2019-11-26T06:11:25.402745+00:00, externally triggered: True>
+[2019-11-26 07:11:46,803] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:11:46,809] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 06:11:25.402745+00:00 [scheduled]> in ORM
+[2019-11-26 07:11:46,935] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.651 seconds
+[2019-11-26 07:12:51,328] {scheduler_job.py:153} INFO - Started process (PID=10749) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:12:51,334] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:12:51,336] {logging_mixin.py:112} INFO - [2019-11-26 07:12:51,335] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:12:51,700] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:12:51,788] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:12:51,804] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 06:11:25.402745+00:00: manual__2019-11-26T06:11:25.402745+00:00, externally triggered: True>
+[2019-11-26 07:12:51,815] {logging_mixin.py:112} INFO - [2019-11-26 07:12:51,815] {dagrun.py:317} INFO - Marking run <DagRun project_pipeline @ 2019-11-26 06:11:25.402745+00:00: manual__2019-11-26T06:11:25.402745+00:00, externally triggered: True> successful
+[2019-11-26 07:12:51,885] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:12:51,889] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.561 seconds
+[2019-11-26 07:13:33,373] {scheduler_job.py:153} INFO - Started process (PID=10781) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:13:33,379] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:13:33,380] {logging_mixin.py:112} INFO - [2019-11-26 07:13:33,379] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:13:33,743] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:13:33,859] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:13:33,875] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:13:33,879] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.506 seconds
+[2019-11-26 07:14:15,418] {scheduler_job.py:153} INFO - Started process (PID=10807) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:14:15,424] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:14:15,425] {logging_mixin.py:112} INFO - [2019-11-26 07:14:15,424] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:14:15,787] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:14:15,884] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:14:15,901] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:14:15,904] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.487 seconds
+[2019-11-26 07:14:57,463] {scheduler_job.py:153} INFO - Started process (PID=10834) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:14:57,469] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:14:57,471] {logging_mixin.py:112} INFO - [2019-11-26 07:14:57,470] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:14:57,836] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:14:57,929] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:14:57,954] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:14:57,959] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.496 seconds
+[2019-11-26 07:15:39,513] {scheduler_job.py:153} INFO - Started process (PID=10861) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:15:39,519] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:15:39,520] {logging_mixin.py:112} INFO - [2019-11-26 07:15:39,519] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:15:39,885] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:15:40,025] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:15:40,047] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:15:40,051] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.538 seconds
+[2019-11-26 07:16:21,560] {scheduler_job.py:153} INFO - Started process (PID=10887) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:16:21,566] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:16:21,567] {logging_mixin.py:112} INFO - [2019-11-26 07:16:21,566] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:16:21,934] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:16:22,048] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:16:22,066] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:16:22,070] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.510 seconds
+[2019-11-26 07:17:03,607] {scheduler_job.py:153} INFO - Started process (PID=10920) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:17:03,613] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:17:03,615] {logging_mixin.py:112} INFO - [2019-11-26 07:17:03,614] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:17:04,044] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:17:04,189] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:17:04,225] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:17:04,230] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.623 seconds
+[2019-11-26 07:17:45,665] {scheduler_job.py:153} INFO - Started process (PID=10945) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:17:45,671] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:17:45,672] {logging_mixin.py:112} INFO - [2019-11-26 07:17:45,671] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:17:46,032] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:17:46,173] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:17:46,198] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:17:46,203] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.538 seconds
+[2019-11-26 07:18:27,698] {scheduler_job.py:153} INFO - Started process (PID=10977) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:18:27,704] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:18:27,705] {logging_mixin.py:112} INFO - [2019-11-26 07:18:27,704] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:18:28,068] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:18:28,159] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:18:28,178] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:18:28,182] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.484 seconds
+[2019-11-26 07:19:09,743] {scheduler_job.py:153} INFO - Started process (PID=11005) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:19:09,749] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:19:09,750] {logging_mixin.py:112} INFO - [2019-11-26 07:19:09,750] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:19:10,115] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:19:10,246] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:19:10,269] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:19:10,273] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.530 seconds
+[2019-11-26 07:19:51,791] {scheduler_job.py:153} INFO - Started process (PID=11030) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:19:51,798] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:19:51,799] {logging_mixin.py:112} INFO - [2019-11-26 07:19:51,799] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:19:52,162] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:19:52,258] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:19:52,275] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:19:52,278] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.488 seconds
+[2019-11-26 07:20:33,837] {scheduler_job.py:153} INFO - Started process (PID=11058) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:20:33,843] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:20:33,844] {logging_mixin.py:112} INFO - [2019-11-26 07:20:33,843] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:20:34,208] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:20:34,299] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:20:34,318] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:20:34,321] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.485 seconds
+[2019-11-26 07:21:15,880] {scheduler_job.py:153} INFO - Started process (PID=11086) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:21:15,886] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:21:15,886] {logging_mixin.py:112} INFO - [2019-11-26 07:21:15,886] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:21:16,240] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:21:16,344] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:21:16,361] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:21:16,364] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.484 seconds
+[2019-11-26 07:21:57,926] {scheduler_job.py:153} INFO - Started process (PID=11116) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:21:57,932] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:21:57,932] {logging_mixin.py:112} INFO - [2019-11-26 07:21:57,932] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:21:58,297] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:21:58,426] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:21:58,444] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:21:58,447] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.521 seconds
+[2019-11-26 07:22:39,967] {scheduler_job.py:153} INFO - Started process (PID=11143) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:22:39,973] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 07:22:39,974] {logging_mixin.py:112} INFO - [2019-11-26 07:22:39,974] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:22:40,361] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 07:22:40,542] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 07:22:40,568] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 07:22:40,573] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.606 seconds
+[2019-11-26 15:56:30,761] {scheduler_job.py:153} INFO - Started process (PID=4210) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:56:30,927] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 15:56:30,928] {logging_mixin.py:112} INFO - [2019-11-26 15:56:30,927] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:56:31,458] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:56:31,894] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.133 seconds
+[2019-11-26 15:57:12,811] {scheduler_job.py:153} INFO - Started process (PID=4281) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:57:12,816] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 15:57:12,817] {logging_mixin.py:112} INFO - [2019-11-26 15:57:12,817] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:57:13,179] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:57:13,329] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 15:57:13,352] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 15:57:13,357] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.546 seconds
+[2019-11-26 15:57:54,853] {scheduler_job.py:153} INFO - Started process (PID=4309) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:57:54,858] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 15:57:54,858] {logging_mixin.py:112} INFO - [2019-11-26 15:57:54,858] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:57:55,209] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:57:55,343] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 15:57:55,360] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 14:57:18.155803+00:00: manual__2019-11-26T14:57:18.155803+00:00, externally triggered: True>
+[2019-11-26 15:57:55,402] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 15:57:55,408] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 14:57:18.155803+00:00 [scheduled]> in ORM
+[2019-11-26 15:57:55,530] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.677 seconds
+[2019-11-26 15:59:00,256] {scheduler_job.py:153} INFO - Started process (PID=4382) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:59:00,261] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 15:59:00,261] {logging_mixin.py:112} INFO - [2019-11-26 15:59:00,261] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:59:00,619] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:59:00,730] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 15:59:00,754] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 14:57:18.155803+00:00: manual__2019-11-26T14:57:18.155803+00:00, externally triggered: True>
+[2019-11-26 15:59:00,799] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 15:59:00,805] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_historic_features 2019-11-26 14:57:18.155803+00:00 [scheduled]> in ORM
+[2019-11-26 15:59:00,895] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.640 seconds
+[2019-11-26 15:59:59,692] {scheduler_job.py:153} INFO - Started process (PID=4430) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 15:59:59,698] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 15:59:59,699] {logging_mixin.py:112} INFO - [2019-11-26 15:59:59,699] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:00:00,063] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:00:00,182] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 16:00:00,199] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 14:57:18.155803+00:00: manual__2019-11-26T14:57:18.155803+00:00, externally triggered: True>
+[2019-11-26 16:00:00,223] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 16:00:00,229] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_advanced_features 2019-11-26 14:57:18.155803+00:00 [scheduled]> in ORM
+[2019-11-26 16:00:00,489] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.797 seconds
+[2019-11-26 16:01:03,797] {scheduler_job.py:153} INFO - Started process (PID=4479) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:01:03,800] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 16:01:03,802] {logging_mixin.py:112} INFO - [2019-11-26 16:01:03,801] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:01:04,175] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:01:04,414] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 16:01:04,434] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 14:57:18.155803+00:00: manual__2019-11-26T14:57:18.155803+00:00, externally triggered: True>
+[2019-11-26 16:01:04,446] {logging_mixin.py:112} INFO - [2019-11-26 16:01:04,445] {dagrun.py:317} INFO - Marking run <DagRun project_pipeline @ 2019-11-26 14:57:18.155803+00:00: manual__2019-11-26T14:57:18.155803+00:00, externally triggered: True> successful
+[2019-11-26 16:01:04,538] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 16:01:04,543] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.746 seconds
+[2019-11-26 16:01:45,848] {scheduler_job.py:153} INFO - Started process (PID=4515) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:01:45,853] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 16:01:45,855] {logging_mixin.py:112} INFO - [2019-11-26 16:01:45,855] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:01:46,208] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:01:46,289] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 16:01:46,305] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 16:01:46,308] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.461 seconds
+[2019-11-26 16:02:27,890] {scheduler_job.py:153} INFO - Started process (PID=4541) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:02:27,897] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 16:02:27,898] {logging_mixin.py:112} INFO - [2019-11-26 16:02:27,897] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:02:28,264] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:02:28,371] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 16:02:28,388] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 16:02:28,391] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.501 seconds
+[2019-11-26 16:03:09,937] {scheduler_job.py:153} INFO - Started process (PID=4566) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:03:09,942] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 16:03:09,943] {logging_mixin.py:112} INFO - [2019-11-26 16:03:09,942] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:03:10,304] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:03:10,425] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 16:03:10,449] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 16:03:10,453] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.516 seconds
+[2019-11-26 16:03:51,978] {scheduler_job.py:153} INFO - Started process (PID=4594) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:03:51,988] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 16:03:51,991] {logging_mixin.py:112} INFO - [2019-11-26 16:03:51,989] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:03:52,349] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:03:52,446] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 16:03:52,464] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 16:03:52,468] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.490 seconds
+[2019-11-26 16:04:34,024] {scheduler_job.py:153} INFO - Started process (PID=4618) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:04:34,030] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 16:04:34,031] {logging_mixin.py:112} INFO - [2019-11-26 16:04:34,030] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:04:34,393] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:04:34,497] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 16:04:34,514] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 16:04:34,517] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.493 seconds
+[2019-11-26 16:05:16,068] {scheduler_job.py:153} INFO - Started process (PID=4644) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:05:16,074] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 16:05:16,075] {logging_mixin.py:112} INFO - [2019-11-26 16:05:16,074] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:05:16,435] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 16:05:16,576] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 16:05:16,601] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 16:05:16,606] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.538 seconds
+[2019-11-26 21:24:08,923] {scheduler_job.py:153} INFO - Started process (PID=9798) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:24:08,947] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:24:08,948] {logging_mixin.py:112} INFO - [2019-11-26 21:24:08,948] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:24:10,568] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:24:10,682] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:24:10,700] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:24:10,704] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.781 seconds
+[2019-11-26 21:24:51,039] {scheduler_job.py:153} INFO - Started process (PID=9888) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:24:51,044] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:24:51,044] {logging_mixin.py:112} INFO - [2019-11-26 21:24:51,044] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:24:51,715] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:24:51,857] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:24:51,879] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 20:24:39.688462+00:00: manual__2019-11-26T20:24:39.688462+00:00, externally triggered: True>
+[2019-11-26 21:24:51,950] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:24:51,955] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_base_features 2019-11-26 20:24:39.688462+00:00 [scheduled]> in ORM
+[2019-11-26 21:24:52,062] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.023 seconds
+[2019-11-26 21:26:04,618] {scheduler_job.py:153} INFO - Started process (PID=9935) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:26:04,624] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:26:04,625] {logging_mixin.py:112} INFO - [2019-11-26 21:26:04,624] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:26:05,284] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:26:05,408] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:26:05,427] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 20:24:39.688462+00:00: manual__2019-11-26T20:24:39.688462+00:00, externally triggered: True>
+[2019-11-26 21:26:05,491] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:26:05,504] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_historic_features 2019-11-26 20:24:39.688462+00:00 [scheduled]> in ORM
+[2019-11-26 21:26:05,668] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.050 seconds
+[2019-11-26 21:27:08,513] {scheduler_job.py:153} INFO - Started process (PID=9978) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:27:08,519] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:27:08,521] {logging_mixin.py:112} INFO - [2019-11-26 21:27:08,520] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:27:09,181] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:27:09,299] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:27:09,321] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 20:24:39.688462+00:00: manual__2019-11-26T20:24:39.688462+00:00, externally triggered: True>
+[2019-11-26 21:27:09,366] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:27:09,372] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.generate_advanced_features 2019-11-26 20:24:39.688462+00:00 [scheduled]> in ORM
+[2019-11-26 21:27:09,503] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.990 seconds
+[2019-11-26 21:28:13,269] {scheduler_job.py:153} INFO - Started process (PID=10020) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:28:13,275] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:28:13,276] {logging_mixin.py:112} INFO - [2019-11-26 21:28:13,276] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:28:13,928] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:28:14,289] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:28:14,312] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 20:24:39.688462+00:00: manual__2019-11-26T20:24:39.688462+00:00, externally triggered: True>
+[2019-11-26 21:28:14,370] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:28:14,375] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.feature_selection 2019-11-26 20:24:39.688462+00:00 [scheduled]> in ORM
+[2019-11-26 21:28:14,601] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.331 seconds
+[2019-11-26 21:29:08,542] {scheduler_job.py:153} INFO - Started process (PID=10069) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:29:08,548] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:29:08,549] {logging_mixin.py:112} INFO - [2019-11-26 21:29:08,549] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:29:09,214] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:29:09,348] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:29:09,366] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 20:24:39.688462+00:00: manual__2019-11-26T20:24:39.688462+00:00, externally triggered: True>
+[2019-11-26 21:29:09,404] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:29:09,409] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.train_lgb_model 2019-11-26 20:24:39.688462+00:00 [scheduled]> in ORM
+[2019-11-26 21:29:09,503] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.961 seconds
+[2019-11-26 21:30:13,389] {scheduler_job.py:153} INFO - Started process (PID=10124) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:30:13,394] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:30:13,395] {logging_mixin.py:112} INFO - [2019-11-26 21:30:13,394] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:30:14,054] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:30:14,158] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:30:14,175] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 20:24:39.688462+00:00: manual__2019-11-26T20:24:39.688462+00:00, externally triggered: True>
+[2019-11-26 21:30:14,200] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:30:14,206] {scheduler_job.py:1602} INFO - Creating / updating <TaskInstance: project_pipeline.make_predictions 2019-11-26 20:24:39.688462+00:00 [scheduled]> in ORM
+[2019-11-26 21:30:14,321] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.932 seconds
+[2019-11-26 21:31:07,767] {scheduler_job.py:153} INFO - Started process (PID=10168) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:31:07,775] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:31:07,775] {logging_mixin.py:112} INFO - [2019-11-26 21:31:07,775] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:31:08,438] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:31:08,558] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:31:08,583] {scheduler_job.py:738} INFO - Examining DAG run <DagRun project_pipeline @ 2019-11-26 20:24:39.688462+00:00: manual__2019-11-26T20:24:39.688462+00:00, externally triggered: True>
+[2019-11-26 21:31:08,598] {logging_mixin.py:112} INFO - [2019-11-26 21:31:08,598] {dagrun.py:317} INFO - Marking run <DagRun project_pipeline @ 2019-11-26 20:24:39.688462+00:00: manual__2019-11-26T20:24:39.688462+00:00, externally triggered: True> successful
+[2019-11-26 21:31:08,759] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:31:08,765] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.998 seconds
+[2019-11-26 21:31:49,811] {scheduler_job.py:153} INFO - Started process (PID=10196) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:31:49,816] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:31:49,817] {logging_mixin.py:112} INFO - [2019-11-26 21:31:49,816] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:31:50,499] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:31:50,628] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:31:50,651] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:31:50,656] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.845 seconds
+[2019-11-26 21:32:31,857] {scheduler_job.py:153} INFO - Started process (PID=10222) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:32:31,862] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:32:31,864] {logging_mixin.py:112} INFO - [2019-11-26 21:32:31,863] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:32:32,528] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:32:32,629] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:32:32,650] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:32:32,654] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.798 seconds
+[2019-11-26 21:33:13,900] {scheduler_job.py:153} INFO - Started process (PID=10248) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:33:13,904] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:33:13,905] {logging_mixin.py:112} INFO - [2019-11-26 21:33:13,905] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:33:14,550] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:33:14,817] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:33:14,839] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:33:14,843] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.943 seconds
+[2019-11-26 21:33:55,946] {scheduler_job.py:153} INFO - Started process (PID=10275) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:33:55,949] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:33:55,950] {logging_mixin.py:112} INFO - [2019-11-26 21:33:55,950] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:33:56,633] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:33:56,726] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:33:56,750] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:33:56,754] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.809 seconds
+[2019-11-26 21:34:37,996] {scheduler_job.py:153} INFO - Started process (PID=10298) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:34:38,002] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:34:38,003] {logging_mixin.py:112} INFO - [2019-11-26 21:34:38,003] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:34:38,660] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:34:38,777] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:34:38,797] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:34:38,800] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.804 seconds
+[2019-11-26 21:35:20,040] {scheduler_job.py:153} INFO - Started process (PID=10330) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:35:20,046] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:35:20,047] {logging_mixin.py:112} INFO - [2019-11-26 21:35:20,046] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:35:20,733] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:35:20,842] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:35:20,862] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:35:20,866] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.826 seconds
+[2019-11-26 21:36:02,093] {scheduler_job.py:153} INFO - Started process (PID=10360) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:36:02,101] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:36:02,102] {logging_mixin.py:112} INFO - [2019-11-26 21:36:02,101] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:36:02,778] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:36:02,895] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:36:02,918] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:36:02,922] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.829 seconds
+[2019-11-26 21:36:44,133] {scheduler_job.py:153} INFO - Started process (PID=10390) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:36:44,139] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:36:44,140] {logging_mixin.py:112} INFO - [2019-11-26 21:36:44,139] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:36:44,807] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:36:44,941] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:36:44,959] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:36:44,962] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.829 seconds
+[2019-11-26 21:37:26,175] {scheduler_job.py:153} INFO - Started process (PID=10417) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:37:26,181] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:37:26,182] {logging_mixin.py:112} INFO - [2019-11-26 21:37:26,182] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:37:26,845] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:37:26,966] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:37:26,989] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:37:26,994] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.819 seconds
+[2019-11-26 21:38:08,217] {scheduler_job.py:153} INFO - Started process (PID=10444) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:38:08,222] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:38:08,223] {logging_mixin.py:112} INFO - [2019-11-26 21:38:08,222] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:38:08,896] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:38:09,024] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:38:09,044] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:38:09,048] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.831 seconds
+[2019-11-26 21:38:50,260] {scheduler_job.py:153} INFO - Started process (PID=10469) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:38:50,264] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:38:50,264] {logging_mixin.py:112} INFO - [2019-11-26 21:38:50,264] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:38:50,955] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:38:51,081] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:38:51,104] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:38:51,108] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.848 seconds
+[2019-11-26 21:39:32,302] {scheduler_job.py:153} INFO - Started process (PID=10734) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:39:32,312] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:39:32,313] {logging_mixin.py:112} INFO - [2019-11-26 21:39:32,313] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:39:32,986] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:39:33,171] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:39:33,198] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:39:33,202] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.900 seconds
+[2019-11-26 21:40:14,351] {scheduler_job.py:153} INFO - Started process (PID=10839) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:40:14,366] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:40:14,367] {logging_mixin.py:112} INFO - [2019-11-26 21:40:14,367] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:40:15,043] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:40:15,178] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:40:15,201] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:40:15,204] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.853 seconds
+[2019-11-26 21:40:56,394] {scheduler_job.py:153} INFO - Started process (PID=10868) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:40:56,410] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:40:56,411] {logging_mixin.py:112} INFO - [2019-11-26 21:40:56,411] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:40:57,069] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:40:57,169] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:40:57,192] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:40:57,196] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 0.802 seconds
+[2019-11-26 21:41:38,434] {scheduler_job.py:153} INFO - Started process (PID=10927) to work on /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:41:39,235] {scheduler_job.py:1528} INFO - Processing file /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py for tasks to queue
+[2019-11-26 21:41:39,236] {logging_mixin.py:112} INFO - [2019-11-26 21:41:39,236] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:41:39,919] {scheduler_job.py:1540} INFO - DAG(s) dict_keys(['project_pipeline']) retrieved from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:41:40,018] {scheduler_job.py:1260} INFO - Processing project_pipeline
+[2019-11-26 21:41:40,036] {scheduler_job.py:440} INFO - Skipping SLA check for <DAG: project_pipeline> because no tasks in DAG have SLAs
+[2019-11-26 21:41:40,040] {scheduler_job.py:161} INFO - Processing /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py took 1.606 seconds

@@ -1,0 +1,128 @@
+[2019-11-26 06:21:47,015] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.generate_base_features 2019-11-26T05:21:20.969297+00:00 [queued]>
+[2019-11-26 06:21:47,033] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.generate_base_features 2019-11-26T05:21:20.969297+00:00 [queued]>
+[2019-11-26 06:21:47,033] {taskinstance.py:841} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 06:21:47,034] {taskinstance.py:842} INFO - Starting attempt 1 of 1
+[2019-11-26 06:21:47,034] {taskinstance.py:843} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 06:21:47,113] {taskinstance.py:862} INFO - Executing <Task(PythonOperator): generate_base_features> on 2019-11-26T05:21:20.969297+00:00
+[2019-11-26 06:21:47,114] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'project_pipeline', 'generate_base_features', '2019-11-26T05:21:20.969297+00:00', '--job_id', '11', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/project_pipeline.py', '--cfg_path', '/tmp/tmp8i__1yjw']
+[2019-11-26 06:21:48,756] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features [2019-11-26 06:21:48,754] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-11-26 06:21:48,757] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features [2019-11-26 06:21:48,756] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 06:21:49,296] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features [2019-11-26 06:21:49,295] {cli.py:545} INFO - Running <TaskInstance: project_pipeline.generate_base_features 2019-11-26T05:21:20.969297+00:00 [running]> on host exceptions
+[2019-11-26 06:21:49,340] {python_operator.py:105} INFO - Exporting the following env vars:
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-26T05:21:20.969297+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-11-26T05:21:20.969297+00:00
+AIRFLOW_CTX_TASK_ID=generate_base_features
+AIRFLOW_CTX_DAG_ID=project_pipeline
+[2019-11-26 06:21:52,105] {logging_mixin.py:112} INFO - [2019-11-26 06:21:52,105] {local_task_job.py:124} WARNING - Time since last heartbeat(0.22 s) < heartrate(5.0 s), sleeping for 4.777458 s
+[2019-11-26 06:21:57,022] {logging_mixin.py:112} INFO - [2019-11-26 06:21:57,022] {local_task_job.py:124} WARNING - Time since last heartbeat(0.04 s) < heartrate(5.0 s), sleeping for 4.957723 s
+[2019-11-26 06:21:59,750] {taskinstance.py:1058} ERROR - Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/models/taskinstance.py", line 930, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "./src/feature_engineering.py", line 17, in __init__
+    self.read_data()
+  File "./src/feature_engineering.py", line 23, in read_data
+    self.convert_to_24hr()
+  File "./src/feature_engineering.py", line 29, in convert_to_24hr
+    self.split_time()
+  File "./src/feature_engineering.py", line 32, in split_time
+    self.df['placement_hour'] = self.df['Placement - Time'].dt.hour
+  File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/generic.py", line 4372, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/accessor.py", line 133, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/indexes/accessors.py", line 325, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike "
+AttributeError: Can only use .dt accessor with datetimelike values
+[2019-11-26 06:21:59,814] {taskinstance.py:1089} INFO - Marking task as FAILED.
+[2019-11-26 06:21:59,827] {logging_mixin.py:112} INFO - [2019-11-26 06:21:59,826] {configuration.py:299} WARNING - section/key [smtp/smtp_user] not found in config
+[2019-11-26 06:21:59,827] {taskinstance.py:1093} ERROR - Failed to send email to: ['agbokenechukwu.k@gmail.com']
+[2019-11-26 06:21:59,827] {taskinstance.py:1094} ERROR - [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/models/taskinstance.py", line 930, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "./src/feature_engineering.py", line 17, in __init__
+    self.read_data()
+  File "./src/feature_engineering.py", line 23, in read_data
+    self.convert_to_24hr()
+  File "./src/feature_engineering.py", line 29, in convert_to_24hr
+    self.split_time()
+  File "./src/feature_engineering.py", line 32, in split_time
+    self.df['placement_hour'] = self.df['Placement - Time'].dt.hour
+  File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/generic.py", line 4372, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/accessor.py", line 133, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/indexes/accessors.py", line 325, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike "
+AttributeError: Can only use .dt accessor with datetimelike values
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/models/taskinstance.py", line 1091, in handle_failure
+    self.email_alert(error)
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/models/taskinstance.py", line 1305, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/home/exceptions/env/lib/python3.5/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/usr/lib/python3.5/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.5/smtplib.py", line 335, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.5/smtplib.py", line 306, in _get_socket
+    self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2019-11-26 06:21:59,964] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features /home/exceptions/env/lib/python3.5/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/exceptions/airflow/airflow.cfg and /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg, and you should remove the other file
+[2019-11-26 06:21:59,964] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   category=DeprecationWarning,
+[2019-11-26 06:21:59,981] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features Traceback (most recent call last):
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/bin/airflow", line 37, in <module>
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     args.func(args)
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     return f(*args, **kwargs)
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/airflow/bin/cli.py", line 551, in run
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     _run(args, dag, ti)
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/airflow/bin/cli.py", line 469, in _run
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     pool=args.pool,
+[2019-11-26 06:21:59,982] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/airflow/utils/db.py", line 74, in wrapper
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     return func(*args, **kwargs)
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/airflow/models/taskinstance.py", line 930, in _run_raw_task
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     result = task_copy.execute(context=context)
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/airflow/operators/python_operator.py", line 113, in execute
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     return_value = self.execute_callable()
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     return self.python_callable(*self.op_args, **self.op_kwargs)
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "./src/feature_engineering.py", line 17, in __init__
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     self.read_data()
+[2019-11-26 06:21:59,983] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "./src/feature_engineering.py", line 23, in read_data
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     self.convert_to_24hr()
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "./src/feature_engineering.py", line 29, in convert_to_24hr
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     self.split_time()
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "./src/feature_engineering.py", line 32, in split_time
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     self.df['placement_hour'] = self.df['Placement - Time'].dt.hour
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/generic.py", line 4372, in __getattr__
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     return object.__getattribute__(self, name)
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/accessor.py", line 133, in __get__
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     accessor_obj = self._accessor(obj)
+[2019-11-26 06:21:59,984] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features   File "/home/exceptions/env/lib/python3.5/site-packages/pandas/core/indexes/accessors.py", line 325, in __new__
+[2019-11-26 06:21:59,985] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features     raise AttributeError("Can only use .dt accessor with datetimelike "
+[2019-11-26 06:21:59,985] {base_task_runner.py:115} INFO - Job 11: Subtask generate_base_features AttributeError: Can only use .dt accessor with datetimelike values
+[2019-11-26 06:22:01,987] {logging_mixin.py:112} INFO - [2019-11-26 06:22:01,985] {local_task_job.py:103} INFO - Task exited with return code 1

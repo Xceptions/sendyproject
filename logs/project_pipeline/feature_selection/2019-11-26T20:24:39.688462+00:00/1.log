@@ -1,0 +1,25 @@
+[2019-11-26 21:28:18,408] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.feature_selection 2019-11-26T20:24:39.688462+00:00 [queued]>
+[2019-11-26 21:28:18,436] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.feature_selection 2019-11-26T20:24:39.688462+00:00 [queued]>
+[2019-11-26 21:28:18,436] {taskinstance.py:841} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 21:28:18,436] {taskinstance.py:842} INFO - Starting attempt 1 of 1
+[2019-11-26 21:28:18,436] {taskinstance.py:843} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 21:28:18,556] {taskinstance.py:862} INFO - Executing <Task(PythonOperator): feature_selection> on 2019-11-26T20:24:39.688462+00:00
+[2019-11-26 21:28:18,556] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'project_pipeline', 'feature_selection', '2019-11-26T20:24:39.688462+00:00', '--job_id', '22', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/project_pipeline.py', '--cfg_path', '/tmp/tmpnxb89m2_']
+[2019-11-26 21:28:20,225] {base_task_runner.py:115} INFO - Job 22: Subtask feature_selection [2019-11-26 21:28:20,223] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-11-26 21:28:20,226] {base_task_runner.py:115} INFO - Job 22: Subtask feature_selection [2019-11-26 21:28:20,225] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:28:20,872] {base_task_runner.py:115} INFO - Job 22: Subtask feature_selection [2019-11-26 21:28:20,872] {cli.py:545} INFO - Running <TaskInstance: project_pipeline.feature_selection 2019-11-26T20:24:39.688462+00:00 [running]> on host exceptions
+[2019-11-26 21:28:20,884] {python_operator.py:105} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-11-26T20:24:39.688462+00:00
+AIRFLOW_CTX_DAG_ID=project_pipeline
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-26T20:24:39.688462+00:00
+AIRFLOW_CTX_TASK_ID=feature_selection
+[2019-11-26 21:28:23,035] {python_operator.py:114} INFO - Done. Returned value was: <feature_engineering.Feature_selection object at 0x7f808ddc0c88>
+[2019-11-26 21:28:23,724] {base_task_runner.py:115} INFO - Job 22: Subtask feature_selection /home/exceptions/env/lib/python3.5/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/exceptions/airflow/airflow.cfg and /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg, and you should remove the other file
+[2019-11-26 21:28:23,725] {base_task_runner.py:115} INFO - Job 22: Subtask feature_selection   category=DeprecationWarning,
+[2019-11-26 21:28:23,810] {logging_mixin.py:112} INFO - [2019-11-26 21:28:23,808] {local_task_job.py:167} WARNING - State of this instance has been externally set to success. Taking the poison pill.
+[2019-11-26 21:28:23,821] {helpers.py:308} INFO - Sending Signals.SIGTERM to GPID 10027
+[2019-11-26 21:28:23,837] {helpers.py:286} INFO - Process psutil.Process(pid=10027, status='terminated') (10027) terminated with exit code -15
+[2019-11-26 21:28:23,839] {logging_mixin.py:112} INFO - [2019-11-26 21:28:23,839] {local_task_job.py:124} WARNING - Time since last heartbeat(0.04 s) < heartrate(5.0 s), sleeping for 4.961656 s
+[2019-11-26 21:28:28,808] {logging_mixin.py:112} INFO - [2019-11-26 21:28:28,807] {local_task_job.py:103} INFO - Task exited with return code 0

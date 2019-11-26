@@ -1,0 +1,23 @@
+[2019-11-26 21:26:13,706] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.generate_historic_features 2019-11-26T20:24:39.688462+00:00 [queued]>
+[2019-11-26 21:26:13,737] {taskinstance.py:630} INFO - Dependencies all met for <TaskInstance: project_pipeline.generate_historic_features 2019-11-26T20:24:39.688462+00:00 [queued]>
+[2019-11-26 21:26:13,738] {taskinstance.py:841} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 21:26:13,739] {taskinstance.py:842} INFO - Starting attempt 1 of 1
+[2019-11-26 21:26:13,739] {taskinstance.py:843} INFO - 
+--------------------------------------------------------------------------------
+[2019-11-26 21:26:13,866] {taskinstance.py:862} INFO - Executing <Task(PythonOperator): generate_historic_features> on 2019-11-26T20:24:39.688462+00:00
+[2019-11-26 21:26:13,866] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'project_pipeline', 'generate_historic_features', '2019-11-26T20:24:39.688462+00:00', '--job_id', '20', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/project_pipeline.py', '--cfg_path', '/tmp/tmpu8kfrkp1']
+[2019-11-26 21:26:15,677] {base_task_runner.py:115} INFO - Job 20: Subtask generate_historic_features [2019-11-26 21:26:15,675] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-11-26 21:26:15,678] {base_task_runner.py:115} INFO - Job 20: Subtask generate_historic_features [2019-11-26 21:26:15,677] {dagbag.py:92} INFO - Filling up the DagBag from /home/exceptions/mlprojects/Airflow/sendyproject/dags/project_pipeline.py
+[2019-11-26 21:26:16,446] {base_task_runner.py:115} INFO - Job 20: Subtask generate_historic_features [2019-11-26 21:26:16,446] {cli.py:545} INFO - Running <TaskInstance: project_pipeline.generate_historic_features 2019-11-26T20:24:39.688462+00:00 [running]> on host exceptions
+[2019-11-26 21:26:16,463] {python_operator.py:105} INFO - Exporting the following env vars:
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-26T20:24:39.688462+00:00
+AIRFLOW_CTX_TASK_ID=generate_historic_features
+AIRFLOW_CTX_DAG_RUN_ID=manual__2019-11-26T20:24:39.688462+00:00
+AIRFLOW_CTX_DAG_ID=project_pipeline
+[2019-11-26 21:26:18,570] {logging_mixin.py:112} INFO - [2019-11-26 21:26:18,569] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.994512 s
+[2019-11-26 21:26:23,768] {logging_mixin.py:112} INFO - [2019-11-26 21:26:23,768] {local_task_job.py:124} WARNING - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.993521 s
+[2019-11-26 21:26:24,038] {python_operator.py:114} INFO - Done. Returned value was: <feature_engineering.Generate_historical_features object at 0x7f304db34400>
+[2019-11-26 21:26:24,960] {base_task_runner.py:115} INFO - Job 20: Subtask generate_historic_features /home/exceptions/env/lib/python3.5/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/exceptions/airflow/airflow.cfg and /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/exceptions/mlprojects/Airflow/sendyproject/airflow.cfg, and you should remove the other file
+[2019-11-26 21:26:24,960] {base_task_runner.py:115} INFO - Job 20: Subtask generate_historic_features   category=DeprecationWarning,
+[2019-11-26 21:26:28,768] {logging_mixin.py:112} INFO - [2019-11-26 21:26:28,766] {local_task_job.py:103} INFO - Task exited with return code 0
