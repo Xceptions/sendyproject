@@ -1,0 +1,13 @@
+% LIGHT GBM MODEL REPORT
+% Kenechukwu Agbo
+% 15th December 2019
+
+## Introduction
+
+Sendyproject was done on the dataset produced by sendy on [zindi](https://zindi.com)
+as one of its competitions. The competition aimed at predicting how long it would
+take for an order to move from the time of pickup to the time of delivery.
+The model(s) was built using Light GBM as its boosting algorithm. The model
+building was done in four parts, with each model depicting one platform type. We
+would be analyzing each of these four types.
+This report is to understand how the models make their predictions.
