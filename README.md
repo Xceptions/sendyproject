@@ -1,4 +1,4 @@
-## Sendy project hosted on zindi. For predicting time from order to delivery
+## Sendy project hosted on zindi. For predicting time from pickup to delivery
 ## How Everything Fits Together
 
 ### Project Structure
