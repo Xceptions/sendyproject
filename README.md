@@ -45,3 +45,7 @@ Contains class that makes use of our saved model to make ouput predictions.
 * selected features
 * models
 * model_predictions
+
+**reports/model_report.html**
+Contains the report on the model, showing the SHAP values of each feature and how
+they contribute to model predictions.
