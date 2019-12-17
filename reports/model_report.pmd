@@ -110,3 +110,8 @@ def plot_shap_values(model, row):
 
 plot_shap_values(model1, data.iloc[[0]])
 ```
+
+From the shap values plot above, we can see that the base value (which is the
+mean prediction) is **1,563** and *for this instance* the contribution distance
+makes to the model is reduce this value to **1,067.25**. In that same manner, we
+can view the contributions for every other feature.
