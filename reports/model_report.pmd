@@ -59,7 +59,6 @@ import pandas as pd
 from pdpbox import pdp
 
 data = pd.read_csv('../data/selected_features/df_train.csv')
-# using only features that were used for training
 data = data.drop(['Order No',
                   'Time from Pickup to Arrival',
                   'Unnamed: 0',
@@ -74,13 +73,34 @@ pdp_dist = pdp.pdp_isolate(model=model1,
                             dataset=data,
                             model_features=feature_names,
                             feature='Distance (KM)')
-pdp.pdp_plot(pdp_dist, 'Distance')
+pdp.pdp_plot(pdp_dist, 'Distance (KM)')
 plt.show()
 ```
 
-Now to get the shap values of model
+We can see from the partial dependence plot that when the distance between the
+pickup and delivery point increases from 0 - 5 km, the time it takes to deliver
+the order also increases, however from 5km - 9km, the time is similar. Then above
+that, it starts to increase again. This could suggest that the traffic congestion
+in the area of 5km - 9km, is little or does not exist at all, thereby allowing
+free movement of the riders which in turn does not really increase time to delivery.
+
+Now to plot the shap summary of model
 ```python
 import shap
-shap_values = shap.TreeExplainer(model1).shap_values(data)
+
+explainer = shap.TreeExplainer(model1)
+shap_values = explainer.shap_values(data)
 shap.summary_plot(shap_values, data)
+```
+
+From the shap summary plot, we have a bird eye view of feature importance
+and what drives it.
+Looking at the distance feature, we can see that when it is low (blue) it
+reduces the prediction time by more than 400, but when it is high, it
+increases the prediction by more than 800. The feature "Pickup - Day of Month)
+moves in the opposite direction.
+
+```python
+shap.initjs()
+shap.force_plot(explainer.expected_value[1], shap_values[1], data)
 ```
