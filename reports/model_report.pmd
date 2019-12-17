@@ -100,7 +100,13 @@ reduces the prediction time by more than 400, but when it is high, it
 increases the prediction by more than 800. The feature "Pickup - Day of Month)
 moves in the opposite direction.
 
+Plotting the shap values to see the contribution of each feature to the model
 ```python
-shap.initjs()
-shap.force_plot(explainer.expected_value[1], shap_values[1], data)
+def plot_shap_values(model, row):
+    explainer_ = shap.TreeExplainer(model)
+    shap_vals = explainer_.shap_values(row)
+    shap.initjs()
+    return shap.force_plot(explainer_.expected_value, shap_vals[0], row)
+
+plot_shap_values(model1, data.iloc[[0]])
 ```
