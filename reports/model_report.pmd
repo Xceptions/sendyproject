@@ -11,3 +11,76 @@ The model(s) was built using Light GBM as its boosting algorithm. The model
 building was done in four parts, with each model depicting one platform type. We
 would be analyzing each of these four types.
 This report is to understand how the models make their predictions.
+
+Let us start with simple feature importances. LGBM provides this functunality out
+of the box
+
+```python
+import pickle
+import matplotlib.pyplot as plt
+import lightgbm as lgb
+
+with open('../data/models/lgb_models.pkl', 'rb') as modelfile:
+    lgb_model = pickle.load(modelfile)
+
+model1, model2, model3, model4 = lgb_model[0]
+```
+
+For model 1:
+```python
+lgb.plot_importance(model1)
+```
+We can see from the above chat that "dist_diff" (the difference between the displacement and
+distance of a location. It was used to make up for curvature which was not given in the data)
+is the most important, followed by distance, then displacement. Three features out of the top
+5 represent "how far" is the pickup point from the delivery point. This seems logical because
+we know from classical physics that distance and time are related.
+We shall do the same for the next.
+
+For model 2:
+```python
+lgb.plot_importance(model2)
+```
+For model 3:
+```python
+lgb.plot_importance(model3)
+```
+For model 4:
+```python
+lgb.plot_importance(model4)
+```
+
+Since all the models say the same thing, we shall go ahead to analyze these distance and
+displacement features for only model1
+
+```python
+import numpy as np
+import pandas as pd
+from pdpbox import pdp
+
+data = pd.read_csv('../data/selected_features/df_train.csv')
+# using only features that were used for training
+data = data.drop(['Order No',
+                  'Time from Pickup to Arrival',
+                  'Unnamed: 0',
+                  'Platform Type'], axis='columns')
+category_cols = ['Personal or Business', 'Pickup - Day of Month']
+for i in category_cols:
+    data[i] = data[i].astype('category')
+
+feature_names = [i for i in data.columns]
+
+pdp_dist = pdp.pdp_isolate(model=model1,
+                            dataset=data,
+                            model_features=feature_names,
+                            feature='Distance (KM)')
+pdp.pdp_plot(pdp_dist, 'Distance')
+plt.show()
+```
+
+Now to get the shap values of model
+```python
+import shap
+shap_values = shap.TreeExplainer(model1).shap_values(data)
+shap.summary_plot(shap_values, data)
+```
